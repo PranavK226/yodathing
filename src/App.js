@@ -1,25 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
+import YodaQuotePicture from "./YodaQuotePicture.jpeg"
 import './App.css';
+import "semantic-ui-css/semantic.min.css"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="ui grid">
+        <div className="ui row">
+          <div className="ui sixteen wide column">
+            <h1 className="ui dividing header">
+              Yoda Translator
+              <div className="ui sub header">A tool to go to Yoda Speak and Back</div>
+            </h1>
+          </div>
+        </div>
+        <div className="ui row">
+          <div className="ui eight wide column">
+            <h2 className="ui dividing header">
+              <i className="ui right arrow icon"></i>
+              To Yoda Speak
+            </h2>
+          </div>
+          <div className="ui eight wide column">
+            <img src={YodaQuotePicture} alt="Lol this was supposed to be yoda"></img>
+          </div>
+        </div>
+      </div>
   );
 }
 

@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Description
+
+This is an app that will ask you for a single sentence and give you the same sentence in Yoda form
+
 ## Available Scripts
 
 In the project directory, you can run:
